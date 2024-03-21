@@ -4,6 +4,8 @@ import connectDB from './database/connectDB.js';
 import authRoutes from './routes/auth.route.js';
 import videoRoutes from './routes/video.route.js';
 import restrictedUserRoutes from './routes/restrictedUser.routes.js';
+import cors from 'cors'; // Importa el módulo cors
+
 
 import "dotenv/config";
 
